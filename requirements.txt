@@ -1,0 +1,8 @@
+pandas 
+notebook
+numpy
+scikit-learn
+matplotlib
+pyYAML
+torch
+-e .
