@@ -1,1 +1,1 @@
-# Credit-Card-Fraud-Detection-Using-GNN
+# Credit-Card-Fraud-Detection-Using-Graph-Neural-Network

@@ -1,0 +1,7 @@
+pandas 
+notebook
+numpy
+scikit-learn
+matplotlib
+pyYAML
+-e .
