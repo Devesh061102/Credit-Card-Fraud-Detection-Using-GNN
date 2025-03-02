@@ -4,4 +4,10 @@ numpy
 scikit-learn
 matplotlib
 pyYAML
+torch==2.5.1
+torchvision
+torchaudio
+python-box
+ensure
+gdown
 -e .
