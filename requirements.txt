@@ -10,4 +10,5 @@ torchaudio
 python-box
 ensure
 gdown
+torch-geometric
 -e .

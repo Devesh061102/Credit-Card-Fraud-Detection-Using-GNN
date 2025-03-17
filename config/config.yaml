@@ -10,3 +10,7 @@ data_ingestion:
 data_transformation:
   root_dir: artifacts/data_transformation
   data_path: artifacts\data_ingestion\credit_card_transactions-ibm_v2.csv
+
+graph_construction:
+  root_dir: artifacts/graph_construction
+  transformed_data_path: artifacts\data_transformation\transformed_dataset.csv
