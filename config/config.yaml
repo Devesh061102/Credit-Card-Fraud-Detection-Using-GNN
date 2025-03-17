@@ -3,13 +3,13 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://drive.google.com/file/d/18yb0Q0s8ArWavpLy4dIXtphnvsozD7yr/view?usp=sharing
+  source_URL: https://drive.google.com/file/d/1ga3LGEbkPZCJYsZp3KeJO61wNY5kFxm1/view?usp=sharing
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
 data_transformation:
   root_dir: artifacts/data_transformation
-  data_path: artifacts\data_ingestion\credit_card_transactions-ibm_v2.csv
+  data_path: artifacts/data_ingestion/credit_card_transactions.csv
 
 graph_construction:
   root_dir: artifacts/graph_construction
