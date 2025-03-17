@@ -7,4 +7,6 @@ data_ingestion:
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
-  
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts\data_ingestion\credit_card_transactions-ibm_v2.csv
