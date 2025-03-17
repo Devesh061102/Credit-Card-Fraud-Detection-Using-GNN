@@ -14,3 +14,4 @@ data_transformation:
 graph_construction:
   root_dir: artifacts/graph_construction
   transformed_data_path: artifacts\data_transformation\transformed_dataset.csv
+  graph_data_path: artifacts/graph_construction/graph_data.pt
