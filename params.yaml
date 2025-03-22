@@ -1,1 +1,4 @@
-key: Value
+GCN:
+  hidden_channels: 16
+  learning_rate: 0.02
+  epochs: 50
