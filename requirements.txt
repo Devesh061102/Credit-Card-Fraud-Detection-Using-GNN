@@ -12,5 +12,4 @@ ensure
 gdown
 torch-geometric
 imbalanced-learn
-geopy
 -e .
