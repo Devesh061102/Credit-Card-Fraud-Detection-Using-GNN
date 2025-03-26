@@ -3,13 +3,17 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://drive.google.com/file/d/1mDvcNhVUMhPhIo8uen2ex8SoMgK8s0ad/view?usp=sharing
+  source_URL: https://drive.google.com/file/d/1HNqPS0-vxPYJ-D7OarOUt9JN9FVh7AXL/view?usp=sharing
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
 data_transformation:
   root_dir: artifacts/data_transformation
-  data_path: artifacts/data_ingestion/Credit_card_data.csv
+  data_path: artifacts/data_ingestion/Credit_card_data_Train.csv
+  customer_mapping_file: artifacts/data_transformation/customer_mapping.pkl 
+  merchant_mapping_file: artifacts/data_transformation/merchant_mapping.pkl 
+  label_encoders_file: artifacts/data_transformation/label_encoders.pkl 
+  scaler_file: artifacts/data_transformation/scaler.pkl
 
 graph_construction:
   root_dir: artifacts/graph_construction
@@ -21,4 +25,17 @@ model_trainer:
   data_path: artifacts/graph_construction/graph_data.pt 
   model_name: "fraud_detection_gcn.pth"
 
+test_data_transformation:
+  root_dir: artifacts/Testing
+  data_path: artifacts/data_ingestion/Credit_card_data_Test.csv
+
+test_graph_construction:
+  root_dir: artifacts/Testing
+  transformed_test_data_path: artifacts/Testing/transformed_test_dataset.csv
+  test_graph_data_path: artifacts/Testing/test_graph_data.pt
+
+model_testing:
+  root_dir: artifacts/Testing
+  model_path: artifacts/model_trainer/fraud_detection_gcn.pth
+  test_graph_data_path: artifacts/Testing/test_graph_data.pt
   
